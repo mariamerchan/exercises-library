@@ -1,0 +1,69 @@
+:root {
+  color-scheme: light dark;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 50px;
+  overflow-x: hidden;
+  font-family: "Karla", sans-serif;
+  background-color: #2a1b3d;
+}
+
+header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+  border-bottom: 2px solid;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c67fe7;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Estilos para los botones en el modo oscuro */
+.dark-theme button {
+  background-color: #c8acd6;
+  color: #17153b;
+}
+
+/* Estilos para los botones en el modo claro */
+.light-theme button {
+  background-color: #17153b;
+  color: #c8acd6;
+}
+
+.dark-theme {
+  background-color: #2a1b3d;
+  color: #c8acd6;
+}
+
+.light-theme {
+  background-color: #f3eefc;
+  color: #17153b;
+}
