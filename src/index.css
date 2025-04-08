@@ -9,6 +9,7 @@ html {
   overflow-x: hidden;
   font-family: "Karla", sans-serif;
   background-color: #2a1b3d;
+  height: fit-content;
 }
 
 header {

@@ -1,0 +1,13 @@
+.hooks__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  row-gap: 20px;
+}

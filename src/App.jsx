@@ -6,7 +6,6 @@ import { Toggle } from "./components/Toggle";
 import { Form } from "./components/Form";
 import { ShoppingList } from "./components/ShoppingList";
 import { ColorPicker } from "./components/ColorPicker";
-import { UseState } from "./hooks/UseState";
 import { UseEffect } from "./hooks/UseEffect";
 import { UseRef } from "./hooks/UseRef";
 import { UseReducer } from "./hooks/UseReducer";

@@ -3,12 +3,12 @@ import { Link } from "react-router";
 
 const Home = () => {
   const books = [
-    { title: "Hooks", route: "../Hooks/Hooks.jsx" },
-    { title: "Events", route: "../Events/Events.jsx" },
-    { title: "Context", route: "../Context/Context.jsx" },
-    { title: "CSS", route: "../Css/Css.jsx" },
-    { title: "State", route: "../State/State.jsx" },
-    { title: "Redux", route: "../Redux/Redux.jsx" },
+    { title: "Hooks", route: "/Hooks" },
+    { title: "Events", route: "/Events" },
+    { title: "Context", route: "/Context" },
+    { title: "CSS", route: "/Css" },
+    { title: "State", route: "/State" },
+    { title: "Redux", route: "/Redux" },
   ];
   return (
     <>
