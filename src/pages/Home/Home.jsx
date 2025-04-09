@@ -1,5 +1,6 @@
 import "./Home.css";
-import { Link } from "react-router";
+import { Link, redirect } from "react-router";
+import data from "../../data/exercises.js";
 
 const Home = () => {
   const books = [
@@ -17,10 +18,14 @@ const Home = () => {
       </h1>
       <h2>Ale Exercises Library</h2>
       <div className="home-books-container">
-        {books.map((book, index) => (
-          <Link to={book.route} key={index} className="home-book-card-link">
+        {data.categories.map((category) => (
+          <Link
+            to={`/topic/${category.name}/${category.id}`}
+            key={category.id}
+            className="home-book-card-link"
+          >
             <div className="home-book-card">
-              <h3>{book.title}</h3>
+              <h3>{category.name}</h3>
             </div>
           </Link>
         ))}
